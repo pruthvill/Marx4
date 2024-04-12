@@ -17,8 +17,8 @@ export default function Home() {
       <DisplayGithub />
    
       <Gallery />
-       <DisplayGoodreads /> 
+       {/* <DisplayGoodreads />  */}
        <DisplayTwitterPosts /> 
-?    </div>
+    </div>
   );
 }

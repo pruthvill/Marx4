@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .grid-option {
+    @apply rounded-md p-5 h-full col-span-1 hover:opacity-75 border-gray-300 border-2 hover:border-black;
+  } */
+
+  .hover-black:hover {
+    fill: #000000 ; /* Change to your desired hover color */
+  }
+}
+
+
+ 
+@layer base {
+
+
+  .text-3xl {
+    fill: #73757B; /* Default color for the icon */
+  }
+}

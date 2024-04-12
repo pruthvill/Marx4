@@ -1,0 +1,6 @@
+export {default as MyHomeIcon} from "./MyHomeIcon.svg"
+export {default as NoteIcon} from "./NoteIcon"
+export {default as DiceIcon} from "./DiceIcon.svg"
+export {default as SearchIcon} from "./SearchIcon.svg"
+export {default as FilterIcon} from "./FilterIcon.svg"
+export {default as CalendarIcon} from "./CalendarIcon.svg"

@@ -7,7 +7,7 @@ interface PinData {
 
 const Pin: React.FC<PinData> = ({ url }) => {
   return (
-    <div className="mb-4 border border-gray-300  rounded-[4px]">
+    <div className="mb-4 border border-gray-300  rounded-[4px] ">
       <div className="relative flex-shrink-0">
         <Image
           src={url}

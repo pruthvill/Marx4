@@ -36,7 +36,7 @@ const Gallery: React.FC = () => {
           {pinData.map((pin, index) => (
             <div
               key={index}
-              className="rounded-[4px] overflow-hidden border border-gray-400"
+              className="rounded-[4px] overflow-hidden border border-gray-400 hover:shadow-md"
               style={{
                 minWidth: '130px',
                 minHeight: '200px',

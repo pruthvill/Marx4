@@ -36,7 +36,7 @@ const TitleDemo: NextPage = memo(() => {
         </div>
         <div className="flex flex-row items-start justify-start py-[0rem] px-[3.063rem] box-border lg:pl-[1.5rem] lg:pr-[1.5rem] lg:box-border">
           <Image
-            src="/home-1@2x.png"
+            src="/Home.png"
             alt=""
             width={1230}
             height={1128}

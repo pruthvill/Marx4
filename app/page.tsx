@@ -1,8 +1,6 @@
 "use client";
 import React from 'react';
 
-import {RegisterLink, LoginLink} from "@kinde-oss/kinde-auth-nextjs/components";
-import type { NextPage } from "next";
 import Footer from "../components/landingpage/Footer";
 import Pricing from "../components/landingpage/Pricing";
 import Features from "../components/landingpage/Features";

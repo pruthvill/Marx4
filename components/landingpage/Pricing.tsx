@@ -4,7 +4,7 @@ import { memo } from "react";
 
 const Pricing: NextPage = memo(() => {
   return (
-    <div id="pricing" className="flex flex-col items-end justify-start gap-[6.125rem] max-w-full text-center text-[3.5rem] text-black font-poppins mq450:gap-[1.5rem] mq750:gap-[3.063rem] mb-40">
+    <div id="pricing" className="flex flex-col items-end justify-start gap-[6.125rem] max-w-full text-center text-[3.5rem] text-black font-poppins mq450:gap-[1.5rem] mq750:gap-[3.063rem] mb-28">
       <div className="w-[81.375rem] flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full">
         <h1 className="m-0 h-[5.625rem] w-[12.75rem] relative text-inherit tracking-[-0.02em] font-black font-inherit inline-block shrink-0 mq450:text-[2.125rem] mq1050:text-[2.813rem]">
           <p className="m-0">Pricing</p>

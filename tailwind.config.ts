@@ -1,13 +1,13 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
 
-const config = {
+const config: Config = {
   darkMode: ["class"],
   content: [
     './pages/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   prefix: "",
   theme: {
     container: {
@@ -54,11 +54,27 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        black: "#000",
+        "neutral-900": "#080808",
+        "neutral-200": "#e6e6e6",
+        "gray-900": "#131316",
+        "neutral-white": "#fff",
+        gray1: {
+          "100": "#292526",
+          "200": "#05000b",
+          "300": "rgba(5, 0, 11, 0.7)",
+        },
+        mediumblue: "#0047ff",
+        blue: "#0126ff",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        "3xs": "10px",
+        mini: "15px",
+        "80xl": "99px",
+        "69xl": "88px",
       },
       keyframes: {
         "accordion-down": {
@@ -78,13 +94,52 @@ const config = {
         '1rem': '1rem',
         '2rem': '2rem',
         '3rem': '3rem',
-        '0.75rem': '0.75rem'
-        
+        '0.75rem': '0.75rem',
         // Add more as needed
-      }
+      },
+      fontFamily: {
+        "body-small": "Inter",
+        poppins: "Poppins",
+      },
+      fontSize: {
+        sm: "0.875rem",
+        "18xl": "2.313rem",
+        "3xl": "1.375rem",
+        "11xl": "1.875rem",
+        mini: "0.938rem",
+        base: "1rem",
+        "21xl": "2.5rem",
+        "10xl": "1.813rem",
+        "4xl": "1.438rem",
+        "37xl": "3.5rem",
+        "15xl": "2.125rem",
+        "26xl": "2.813rem",
+        "5xl": "1.5rem",
+        lgi: "1.188rem",
+        "7xl": "1.625rem",
+        "2xl": "1.313rem",
+        "50xl": "4.313rem",
+        "22xl": "2.563rem",
+        "36xl": "3.438rem",
+        inherit: "inherit",
+      },
+      screens: {
+        lg: {
+          max: "1200px",
+        },
+        mq1050: {
+          raw: "screen and (max-width: 1050px)",
+        },
+        mq750: {
+          raw: "screen and (max-width: 750px)",
+        },
+        mq450: {
+          raw: "screen and (max-width: 450px)",
+        },
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+};
 
-export default config
+export default config;

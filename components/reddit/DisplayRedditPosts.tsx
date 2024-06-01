@@ -30,10 +30,10 @@ const DisplayRedditPosts = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const clientId = 'HE7NI7wWTIQz4vlrqri66g';
-    const clientSecret = '4-D0r-UyLqmGrv5jyN2gq7LRSCZGng';
+    const clientId = 'use yours';
+    const clientSecret = 'use yours';
     const username = 'pruthvil';
-    const password = 'bikac.56';
+    const password = 'use yours';
     const userAgent = `web:my_reddit_app:v1.0 (by /u/${username})`;
 
     fetchAccessToken();
